@@ -1,8 +1,10 @@
-Build and Run
-input parameter is all from cmd scanner
+## Build and Run
+
+#### input parameter is all from cmd scanner
 
 Here is an example:
 
+```
 Game start...X first
 example: 1,1
 [ ][ ][ ]
@@ -54,4 +56,4 @@ User X Pls tic the position:
 [X][X][O]
 [O][O][X]
 No winner for this game
-
+```
