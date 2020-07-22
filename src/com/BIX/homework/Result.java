@@ -1,4 +1,4 @@
-package com.company;
+package com.BIX.homework;
 
 /**
  * @author Vincent

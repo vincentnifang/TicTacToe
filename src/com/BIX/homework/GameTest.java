@@ -1,4 +1,4 @@
-package com.company;
+package com.BIX.homework;
 
 import org.junit.Assert;
 import org.junit.Before;

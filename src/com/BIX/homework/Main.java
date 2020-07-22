@@ -1,4 +1,4 @@
-package com.company;
+package com.BIX.homework;
 
 import java.util.Scanner;
 
