@@ -1,4 +1,12 @@
 ## Build and Run
+## test script
+maven test
+
+## build script
+maven clean package
+
+## running script
+java -jar {your-local-target-path}/TicTacToe-1.0-SNAPSHOT.jar
 
 #### input parameter is all from cmd scanner
 
