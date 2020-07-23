@@ -70,25 +70,21 @@ public class Game {
     }
 
     private boolean checkRow(int x, String user) {
-        boolean flag = true;
         for (int i = 0; i < n; i++) {
             if (world[x][i] != user) {
-                flag = false;
-                break;
+                return false;
             }
         }
-        return flag;
+        return true;
     }
 
     private boolean checkColumn(int y, String user) {
-        boolean flag = true;
         for (int i = 0; i < n; i++) {
             if (world[i][y] != user) {
-                flag = false;
-                break;
+                return false;
             }
         }
-        return flag;
+        return true;
     }
 
     private boolean checkDiagonal(String user) {
